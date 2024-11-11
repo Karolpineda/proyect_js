@@ -8,7 +8,7 @@ This program to print the messages "Hello with JS" in the languaje Javascrip.
 ## 📑Instalation
 **1.** Clone the Repository
    ```
-    git clone https://github.com/Karolpineda/Proyect_Python.git
+    git clone https://github.com/Karolpineda/proyect_js.git
    ```
 
 **2.** Once the project has been cloned, you must open it with the VSCode code editor.
@@ -23,16 +23,16 @@ This program to print the messages "Hello with JS" in the languaje Javascrip.
 
 **1.** Download image and run the following command in a terminal.
    ```
-    docker pull karolpineda/app-python:version1.0
+    docker push karolpineda/proyect_js:v1
    ```
 **2.**  Finally, you can run the imagen with the folling command.
    ```
-docker run -p 5000:5000 karolpineda/app-python:version1.0
+docker run -p 3000:3000 karolpineda/proyect_js:v1
 
    ```
 
 > [!IMPORTANT]
-> By default of python we use the port 5000. If it is required to deploy it on a different port, only 5000 must be modified for another desired port.
+> By default of python we use the port 3000. If it is required to deploy it on a different port, only 3000 must be modified for another desired port.
 
 ## 🔍 View the results
 [View results](#scope)
